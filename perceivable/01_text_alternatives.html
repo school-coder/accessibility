@@ -1,1 +1,17 @@
-<img></img>
+
+<!-- alt attribute should provide meaningful text -->
+<img alt="::meaningful-text" src=""></img>
+
+<!-- using aria-label -->
+<i class="icon icon-user" aria-label="::meaningful-text"></i>
+
+<!-- using aria-labelled-by -->
+<span
+  role="checkbox"
+  aria-checked="false"
+  tabindex="0"
+  aria-labelledby="tac"></span>
+<span id="tac">I agree to the Terms and Conditions.</span>
+
+
+
